@@ -43,7 +43,6 @@ class ETWorker
         $client->username = $settings['username'];
         $client->password = $settings['password'];
         $this->client = $client;
-        $this->customerKey = $settings['client_id'];
     }
     /**
      * Get total email permissions from a data extension
